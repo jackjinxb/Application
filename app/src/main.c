@@ -15,7 +15,7 @@ void main(void)
 {
 	int ret;
 	const struct device *sensor;
-
+	printk("Hello world");
 	printk("Zephyr Example Application %s\n", APP_VERSION_STR);
 
 	sensor = DEVICE_DT_GET(DT_NODELABEL(examplesensor0));
